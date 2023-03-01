@@ -7,7 +7,7 @@
  * Description: strlen similiar function to return length
  * Return: string
  */
-int _strlen(char *s)
+int _strlen(char *s);
 {
 	int i;
 
