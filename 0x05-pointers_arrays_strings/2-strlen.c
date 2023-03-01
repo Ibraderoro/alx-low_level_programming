@@ -7,14 +7,14 @@
  * Description: strlen similiar function to return length
  * Return: string
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
-	int i;
+	int longi = 0;
 
-	i = 0;
-	while (*(s + i) != '\0')
+	while (*s != '\0')
 	{
-		i++;
+		longi++;
+		s++;
 	}
-	return (i);
+	return (longi);
 }
