@@ -14,7 +14,7 @@ for (x = 0; x < 50; x++)
 	{
 	sum = fibo1 + fibo2;
 	printf("%lu", sum);
-
+	putchar (',');
 	fibo1 = fibo2;
 	fibo2 = sum;
 	if (x == 49)
