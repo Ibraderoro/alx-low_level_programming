@@ -6,7 +6,7 @@
  *
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
 int a;
 int sum = 0;
@@ -18,6 +18,6 @@ for (a = 0; a < 1024; a++)
 	sum = sum + a;
 	}
 }
-printf ("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
