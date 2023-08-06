@@ -21,7 +21,7 @@ for (x = 0; x < 50; x++)
 	if (x == 49)
 		printf("\n");
 	else
-		printf(",");
+		break;
 	}
 return (0);
 }
