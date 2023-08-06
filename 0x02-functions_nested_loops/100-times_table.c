@@ -22,10 +22,12 @@ if (n >= 0 && n <= 15)
 		if (z == 99)
 		{
 		_putchar (' ');
+		_putchar (z + '0');
 		}
 		if (z <= 9)
 		{
 		_putchar (' ');
+		_putchar (z + '0');
 		}
 		if (z >= 100)
 		{
@@ -40,7 +42,7 @@ if (n >= 0 && n <= 15)
 		_putchar ((z % 10) + '0');
 		}
 		}
-	_putchar ('\n');
 }
+	_putchar ('\n');
 }
 }
