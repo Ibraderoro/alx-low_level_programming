@@ -18,7 +18,7 @@ for (y = 1; y < 10; y++)
 
 	_putchar (',');
 	_putchar (' ');
-	
+
 	z = x * y;
 	if (z <= 9)
 		{
@@ -31,7 +31,6 @@ for (y = 1; y < 10; y++)
 		_putchar ((z % 10) + '0');
 		}
 	}
-	
 _putchar ('\n');
 }
 }
