@@ -19,8 +19,6 @@ for (x = 0; x < 50; x++)
 	fibo1 = fibo2;
 	fibo2 = sum;
 	if (x == 49)
-		break;
-		putchar (',');
 		printf("\n");
 	}
 return (0);
