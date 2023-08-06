@@ -20,7 +20,7 @@ for (x = 0; x < 50; x++)
 	fibo2 = sum;
 	if (x == 49)
 		printf("\n");
-	else
+	if (x == 49)
 		break;
 	}
 return (0);
