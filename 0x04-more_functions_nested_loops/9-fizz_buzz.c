@@ -31,5 +31,4 @@ for (z = 1; z <= 100; z++)
 	}
 
 	printf("\n");
-	return (0);
 }
