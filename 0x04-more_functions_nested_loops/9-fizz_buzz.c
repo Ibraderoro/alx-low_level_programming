@@ -27,8 +27,11 @@ for (z = 1; z <= 100; z++)
 	else
 	{
 		printf("%d ", z);
+	if (z < 100)
+		printf(" ");
 	}
 	}
 
 	printf("\n");
+	return (0);
 }
