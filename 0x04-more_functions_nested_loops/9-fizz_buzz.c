@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *fizz_buzz - This prints the numbers from 1 to 100
- *
+ *main - Entry point
+ * fizz_buzz: This prints the numbers from 1 to 100
  * Fizz for multiplication of 3, Buzz for multiplication of 5
  * and FizzBuzz for multiplication of both
  * Return: Always 0
